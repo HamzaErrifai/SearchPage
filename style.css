@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-shadow: 1px 4px 5px black;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+#app {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.822);
+  color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+#app nav {
+  float: left;
+  width: 100%;
+  line-height: 40px;
+  padding: 5px 0 5px 0;
+}
+
+#app nav #logo {
+  font-size: 2em;
+  float: left;
+  margin: 0 0 0 8px;
+}
+
+#app nav #weather, #app nav #citySet, #app nav #battery {
+  cursor: pointer;
+  float: right;
+  margin: 0 8px 5px 0;
+  font-size: 2em;
+}
+
+#app nav #weather #icon, #app nav #citySet #icon, #app nav #battery #icon {
+  height: 50px;
+  vertical-align: bottom;
+}
+
+#app nav #citySet {
+  display: none;
+  color: white;
+  width: 10vw;
+  font-size: 1.5em;
+  text-shadow: none;
+  border: 0;
+  border-bottom: white 1px solid;
+  text-align: center;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#app nav #citySet:focus {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#app nav ::-webkit-input-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+#app nav :-ms-input-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+#app nav ::-ms-input-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+#app nav ::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+#app nav #battery {
+  clear: both;
+  font-size: 1em;
+}
+
+#app #search-container {
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+  clear: both;
+  font-size: 5em;
+  padding-top: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#app #search-container #time {
+  font-size: 1.5em;
+}
+
+#app #search-container #search {
+  -webkit-box-shadow: 0px 0px 68px -33px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 68px -33px rgba(0, 0, 0, 0.75);
+  opacity: 1;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: none;
+  line-height: 40px;
+  font-size: 0.5em;
+  height: 80px;
+  border: 0;
+  text-align: center;
+  border-bottom: white 2px solid;
+}
+
+#app #search-container ::-webkit-input-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+#app #search-container :-ms-input-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+#app #search-container ::-ms-input-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+#app #search-container ::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+#app #credit {
+  font-size: 1.1em;
+  line-height: 4vw;
+  position: fixed;
+  margin-left: 8px;
+  top: 94vh;
+}
+/*# sourceMappingURL=style.css.map */
